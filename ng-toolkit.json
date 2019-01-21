@@ -4,5 +4,15 @@
     "skipInstall": false,
     "directory": ".",
     "http": true
+  },
+  "serverless": {
+    "provider": "firebase",
+    "project": "tahooki-angular",
+    "skipInstall": false,
+    "directory": ".",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
   }
 }
