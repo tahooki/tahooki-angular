@@ -1,0 +1,8 @@
+{
+  "universal": {
+    "project": "tahooki-angular",
+    "skipInstall": false,
+    "directory": ".",
+    "http": true
+  }
+}
