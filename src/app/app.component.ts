@@ -17,6 +17,12 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
+    this._router.events.subscribe((event) => {
+      if (event instanceof NavigationStart) {
+        console.log('router event', event);
+      }
+    });
+
     this._checkUpdate();
   }
 
@@ -30,7 +36,7 @@ export class AppComponent implements OnInit {
       });
 
       this._swUpdate.available.subscribe(() => {
-        if (confirm('New version available. Load New Version?')) {
+        if (confirm('사이트의 버전이 업데이트 되었습니다. 새로고침 하시겠습니까?')) {
           window.location.reload();
         }
       });

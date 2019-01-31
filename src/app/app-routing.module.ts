@@ -2,13 +2,16 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports: [RouterModule.forRoot([
-    {
-      path:        '',
-      redirectTo:  '/main',
-      pathMatch:   'full'
-    }
-  ])],
+  imports: [
+    RouterModule.forRoot([
+      {
+        path:       '',
+        redirectTo: '/main',
+        pathMatch:  'full'
+      }
+    ], { onSameUrlNavigation: 'reload' })
+  ],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}
