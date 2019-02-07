@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SwUpdate } from '@angular/service-worker';
 import { NavigationStart, Router } from '@angular/router';
-import { log } from 'util';
 
 @Component({
   selector:    'app-root',
