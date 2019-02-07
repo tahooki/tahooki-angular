@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { TestDogComponent } from 'src/app/routes/test-dog/test-dog.component';
+import { TestCatComponent } from './test-cat.component';
 
 @NgModule({
   imports: [
     RouterModule.forChild([
       {
         path:      'test/cat',
-        component: TestDogComponent
+        component: TestCatComponent
       }
     ])
   ],

@@ -1,4 +1,4 @@
-import { PostItem } from 'src/app/routes/test-ssr/test-ssr.component.model';
+import { PostItem } from './test-ssr.component.model';
 
 export const postMockList: PostItem[] = [
   {

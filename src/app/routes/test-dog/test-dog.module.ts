@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TestDogComponent } from './test-dog.component';
-import { TestDogRoutingModule } from 'src/app/routes/test-dog/test-dog-routing.module';
+import { TestDogRoutingModule } from './test-dog-routing.module';
 
 @NgModule({
   declarations: [TestDogComponent],

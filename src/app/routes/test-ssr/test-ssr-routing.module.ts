@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { TestDogComponent } from 'src/app/routes/test-dog/test-dog.component';
-import { TestSsrComponent } from 'src/app/routes/test-ssr/test-ssr.component';
+import { TestSsrComponent } from './test-ssr.component';
 
 @NgModule({
   imports: [

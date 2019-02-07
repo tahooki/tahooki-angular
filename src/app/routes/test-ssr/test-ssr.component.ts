@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
-import { postMockList } from 'src/app/routes/test-ssr/test-ssr.component.mock';
+import { postMockList } from './test-ssr.component.mock';
 
 @Component({
   selector: 'app-test-ssr',
