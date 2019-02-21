@@ -5,6 +5,7 @@ import { TestCatModule } from './test-cat/test-cat.module';
 import { TestDogModule } from './test-dog/test-dog.module';
 import { TestSsrModule } from './test-ssr/test-ssr.module';
 import { TestModule } from './test/test.module';
+import { TestCkeditorModule } from 'src/app/routes/test-ckeditor/test-ckeditor.module';
 
 @NgModule({
   imports: [
@@ -12,7 +13,8 @@ import { TestModule } from './test/test.module';
     TestModule,
     TestDogModule,
     TestCatModule,
-    TestSsrModule
+    TestSsrModule,
+    TestCkeditorModule
   ]
 })
 export class RoutesModule { }
